@@ -1,1 +1,52 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            padding: 50px;
+        }
+        h1 {
+            color: red;
+        }
+        .hidden {
+            display: none;
+            font-size: 20px;
+            color: white;
+            background-color: red;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: white;
+            border: 2px solid red;
+            color: red;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday, My Love! 🎉🎂❤️</h1>
+    <p>You make every moment special, and today is all about celebrating YOU! 💖</p>
+    <button onclick="showMessage()">Click for a Surprise</button>
+    <div id="message" class="hidden">You are the best thing that ever happened to me! 💕</div>
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+</body>
+</html>
